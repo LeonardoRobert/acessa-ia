@@ -1,0 +1,281 @@
+{
+  "meta": {
+    "titulo": "Pesquisa de campo – Barreiras de Acessibilidade em Interfaces Digitais",
+    "periodo": "Coleta em 18/11/2026",
+    "fonte": "Google Forms (respostas reais, anonimizadas)",
+    "exemplo": false
+  },
+  "respostas": [
+    {
+      "id": 1,
+      "faixaEtaria": "18 a 29 anos",
+      "deficiencia": "Visual",
+      "dispositivo": "Celular",
+      "tecnologiaAssistiva": [
+        "Leitor de tela"
+      ],
+      "frequenciaBarreiras": 5,
+      "barreiras": [
+        "Imagens sem descrição",
+        "Baixo contraste de cores",
+        "Botões pequenos ou difíceis de tocar",
+        "CAPTCHA e formulários",
+        "App não funciona com leitor de tela"
+      ],
+      "servicosDificeis": [
+        "Banco",
+        "Governo (gov.br, INSS)",
+        "Compras"
+      ],
+      "recursosDesejados": [
+        "Comando de voz",
+        "Leitura do texto em voz alta",
+        "Descrição automática de imagens"
+      ],
+      "satisfacao": 1,
+      "relato": "Tenho dificuldade para utilizar aplicativos bancários porque muitos botões não possuem descrição. Algumas vezes preciso pedir ajuda para realizar operações simples."
+    },
+    {
+      "id": 2,
+      "faixaEtaria": "30 a 44 anos",
+      "deficiencia": "Auditiva",
+      "dispositivo": "Celular",
+      "tecnologiaAssistiva": [
+        "Legendas ou Libras"
+      ],
+      "frequenciaBarreiras": 3,
+      "barreiras": [
+        "Vídeos sem legenda",
+        "Textos difíceis de entender"
+      ],
+      "servicosDificeis": [
+        "Redes sociais"
+      ],
+      "recursosDesejados": [
+        "Vibração ou feedback tátil",
+        "Legendas automáticas"
+      ],
+      "satisfacao": 3,
+      "relato": ""
+    },
+    {
+      "id": 3,
+      "faixaEtaria": "45 a 59 anos",
+      "deficiencia": "Motora",
+      "dispositivo": "Computador",
+      "tecnologiaAssistiva": [
+        "Comando de voz"
+      ],
+      "frequenciaBarreiras": 4,
+      "barreiras": [
+        "Botões pequenos ou difíceis de tocar",
+        "Não dá para navegar por voz ou teclado"
+      ],
+      "servicosDificeis": [
+        "Banco",
+        "Governo (gov.br, INSS)",
+        "Compras"
+      ],
+      "recursosDesejados": [
+        "Comando de voz",
+        "Vibração ou feedback tátil"
+      ],
+      "satisfacao": 2,
+      "relato": ""
+    },
+    {
+      "id": 4,
+      "faixaEtaria": "18 a 29 anos",
+      "deficiencia": "Cognitiva ou intelectual",
+      "dispositivo": "Celular",
+      "tecnologiaAssistiva": [
+        "Nenhuma"
+      ],
+      "frequenciaBarreiras": 4,
+      "barreiras": [
+        "Letras pequenas",
+        "CAPTCHA e formulários",
+        "Textos difíceis de entender"
+      ],
+      "servicosDificeis": [
+        "Banco",
+        "Governo (gov.br, INSS)",
+        "Saúde",
+        "Educação"
+      ],
+      "recursosDesejados": [
+        "Comando de voz",
+        "Leitura do texto em voz alta",
+        "Simplificação de textos"
+      ],
+      "satisfacao": 2,
+      "relato": ""
+    },
+    {
+      "id": 5,
+      "faixaEtaria": "60 anos ou mais",
+      "deficiencia": "Múltipla",
+      "dispositivo": "Tablet",
+      "tecnologiaAssistiva": [
+        "Ampliador ou zoom"
+      ],
+      "frequenciaBarreiras": 5,
+      "barreiras": [
+        "Baixo contraste de cores",
+        "Letras pequenas",
+        "Botões pequenos ou difíceis de tocar",
+        "Textos difíceis de entender"
+      ],
+      "servicosDificeis": [
+        "Banco",
+        "Governo (gov.br, INSS)",
+        "Saúde"
+      ],
+      "recursosDesejados": [
+        "Leitura do texto em voz alta",
+        "Simplificação de textos"
+      ],
+      "satisfacao": 1,
+      "relato": "Tenho dificuldade para enxergar as informações e entender algumas instruções. Preciso de ajuda de familiares para consultar resultados de exames pela internet."
+    },
+    {
+      "id": 6,
+      "faixaEtaria": "18 a 29 anos",
+      "deficiencia": "Auditiva",
+      "dispositivo": "Computador",
+      "tecnologiaAssistiva": [
+        "Legendas ou Libras"
+      ],
+      "frequenciaBarreiras": 2,
+      "barreiras": [
+        "Vídeos sem legenda"
+      ],
+      "servicosDificeis": [
+        "Redes sociais"
+      ],
+      "recursosDesejados": [
+        "Legendas automáticas"
+      ],
+      "satisfacao": 4,
+      "relato": "Geralmente consigo utilizar sites e aplicativos sem problemas"
+    },
+    {
+      "id": 7,
+      "faixaEtaria": "30 a 44 anos",
+      "deficiencia": "Visual",
+      "dispositivo": "Celular",
+      "tecnologiaAssistiva": [
+        "Ampliador ou zoom"
+      ],
+      "frequenciaBarreiras": 3,
+      "barreiras": [
+        "Imagens sem descrição",
+        "Baixo contraste de cores",
+        "Letras pequenas"
+      ],
+      "servicosDificeis": [
+        "Compras",
+        "Saúde",
+        "Redes sociais"
+      ],
+      "recursosDesejados": [
+        "Leitura do texto em voz alta",
+        "Descrição automática de imagens",
+        "Legendas automáticas"
+      ],
+      "satisfacao": 3,
+      "relato": "Preciso aumentar bastante o zoom para conseguir navegar."
+    },
+    {
+      "id": 8,
+      "faixaEtaria": "30 a 44 anos",
+      "deficiencia": "Motora",
+      "dispositivo": "Tablet",
+      "tecnologiaAssistiva": [
+        "Comando de voz"
+      ],
+      "frequenciaBarreiras": 2,
+      "barreiras": [
+        "Botões pequenos ou difíceis de tocar",
+        "Não dá para navegar por voz ou teclado"
+      ],
+      "servicosDificeis": [
+        "Banco",
+        "Compras"
+      ],
+      "recursosDesejados": [
+        "Comando de voz",
+        "Vibração ou feedback tátil"
+      ],
+      "satisfacao": 4,
+      "relato": "Alguns aplicativos funcionam muito bem com comandos de voz, mas outros exigem muitos toques na tela."
+    },
+    {
+      "id": 9,
+      "faixaEtaria": "45 a 59 anos",
+      "deficiencia": "Cognitiva ou intelectual",
+      "dispositivo": "Computador",
+      "tecnologiaAssistiva": [
+        "Nenhuma"
+      ],
+      "frequenciaBarreiras": 4,
+      "barreiras": [
+        "Imagens sem descrição",
+        "Baixo contraste de cores",
+        "Letras pequenas",
+        "Vídeos sem legenda",
+        "Botões pequenos ou difíceis de tocar",
+        "CAPTCHA e formulários",
+        "Textos difíceis de entender",
+        "Não dá para navegar por voz ou teclado",
+        "App não funciona com leitor de tela"
+      ],
+      "servicosDificeis": [
+        "Banco",
+        "Governo (gov.br, INSS)",
+        "Compras",
+        "Saúde",
+        "Educação",
+        "Redes sociais"
+      ],
+      "recursosDesejados": [
+        "Comando de voz",
+        "Leitura do texto em voz alta",
+        "Descrição automática de imagens",
+        "Simplificação de textos",
+        "Vibração ou feedback tátil",
+        "Legendas automáticas"
+      ],
+      "satisfacao": 2,
+      "relato": ""
+    },
+    {
+      "id": 10,
+      "faixaEtaria": "60 anos ou mais",
+      "deficiencia": "Visual",
+      "dispositivo": "Celular",
+      "tecnologiaAssistiva": [
+        "Ampliador ou zoom"
+      ],
+      "frequenciaBarreiras": 3,
+      "barreiras": [
+        "Baixo contraste de cores",
+        "Letras pequenas",
+        "Botões pequenos ou difíceis de tocar",
+        "Textos difíceis de entender"
+      ],
+      "servicosDificeis": [
+        "Banco",
+        "Governo (gov.br, INSS)",
+        "Compras",
+        "Saúde"
+      ],
+      "recursosDesejados": [
+        "Leitura do texto em voz alta",
+        "Simplificação de textos"
+      ],
+      "satisfacao": 2,
+      "relato": ""
+    }
+  ]
+}
