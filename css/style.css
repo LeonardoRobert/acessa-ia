@@ -54,7 +54,7 @@ a { color: var(--primaria); }
 .sep { width: 1px; align-self: stretch; background: var(--borda); margin: 0 .25rem; }
 
 button, .botao {
-  font: inherit; font-size: .95rem; cursor: pointer; min-height: 44px; min-width: 44px; /* alvo de toque WCAG 2.5.5 */
+  font: inherit; font-size: 1rem; cursor: pointer; min-height: 48px; min-width: 48px; /* acima do mínimo WCAG 2.5.5 (44px), ajustado após teste com usuário com deficiência motora */
   padding: .5rem .9rem; border-radius: 10px; border: 2px solid var(--primaria);
   background: var(--superficie); color: var(--primaria); font-weight: 600; text-decoration: none;
   display: inline-flex; align-items: center; gap: .4rem;
@@ -97,6 +97,16 @@ h2 { font-size: 1.6rem; margin: 0 0 1rem; }
 
 footer { border-top: 2px solid var(--borda); padding: 1.5rem 0; color: var(--texto-suave); font-size: .9rem; }
 
+.botao-grande { font-size: 1.2rem; min-height: 64px; padding: .9rem 1.6rem; border-radius: 14px; }
+.nota-tecnica { font-size: .8rem; color: var(--texto-suave); margin: .25rem 0 0; }
+/* Legenda da fala: barra fixa na parte de baixo, alto contraste em qualquer tema */
+.legenda-fala {
+  position: fixed; left: 50%; bottom: 1.25rem; transform: translateX(-50%); z-index: 90;
+  max-width: min(900px, 92vw); padding: .9rem 1.25rem; border-radius: 12px;
+  background: #000; color: #fff; border: 3px solid var(--foco); font-size: 1.15rem; line-height: 1.4;
+  box-shadow: 0 6px 24px rgba(0,0,0,.35);
+}
+.legenda-fala[hidden] { display: none; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .aviso { padding: .8rem 1rem; border-radius: 10px; border: 2px solid #c62828; background: #fdecea; color: #7f1d1d; font-weight: 600; margin-bottom: 1rem; }
 [data-tema="contraste"] .aviso, [data-tema="amarelo"] .aviso { background: #000; color: var(--texto); border-color: var(--texto); }

@@ -44,13 +44,20 @@ const Acess = (() => {
     // Divide em frases: evita o corte de falas longas que ocorre no Chrome
     const frases = texto.replace(/\s+/g, ' ').match(/[^.!?]+[.!?]?/g) || [texto];
     const voz = speechSynthesis.getVoices().find(v => v.lang.startsWith('pt'));
-    frases.forEach(f => {
+    frases.forEach((f, i) => {
       const u = new SpeechSynthesisUtterance(f.trim());
       u.lang = 'pt-BR'; u.rate = prefs.velocidade || 1; if (voz) u.voice = voz;
+      // Legenda visual: cada frase aparece na tela enquanto é falada
+      u.onstart = () => legenda(f.trim());
+      if (i === frases.length - 1) u.onend = () => legenda(null);
       speechSynthesis.speak(u);
     });
   }
-  function parar() { if ('speechSynthesis' in window) speechSynthesis.cancel(); }
+  function legenda(texto) {
+    const el = document.getElementById('legendaFala'); if (!el) return;
+    if (texto) { el.textContent = '🔊 ' + texto; el.hidden = false; } else { el.hidden = true; }
+  }
+  function parar() { if ('speechSynthesis' in window) speechSynthesis.cancel(); legenda(null); }
 
   /* ---------- FEEDBACK TÁTIL (IoT) ---------- */
   // Padrões em milissegundos: vibra, pausa, vibra…

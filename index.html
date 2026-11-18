@@ -19,10 +19,10 @@
       <button data-tema-btn="amarelo" aria-pressed="false">Amarelo</button>
     </div>
     <span class="sep" aria-hidden="true"></span>
-    <div class="grupo" role="group" aria-label="Tamanho do texto">
-      <span class="rotulo" aria-hidden="true">Texto</span>
-      <button id="fonteMenos" aria-label="Diminuir texto">A−</button>
-      <button id="fonteMais" aria-label="Aumentar texto">A+</button>
+    <div class="grupo" role="group" aria-label="Tamanho das letras">
+      <span class="rotulo" aria-hidden="true">Letras</span>
+      <button id="fonteMenos">🔍− Letras menores</button>
+      <button id="fonteMais">🔍+ Letras maiores</button>
       <button id="leituraFacil" aria-pressed="false">Leitura fácil</button>
     </div>
     <span class="sep" aria-hidden="true"></span>
@@ -55,15 +55,14 @@
 
     <section id="ia" aria-labelledby="tituloIA">
       <h2 id="tituloIA">🖼️ Descrição de imagens com Inteligência Artificial</h2>
-      <p>Envie uma foto. A rede neural <strong>MobileNet</strong> (TensorFlow.js) roda no seu próprio navegador, sem enviar a imagem para nenhum servidor, e descreve o que reconheceu. A descrição também é falada e confirmada por vibração.</p>
-      <div class="ia-area">
+      <p><strong>Envie uma foto e a IA diz o que tem nela.</strong> A foto não sai do seu aparelho.</p>
+      <label for="arquivoIA" class="botao primario botao-grande">📷 Enviar foto para a IA descrever</label>
+      <input type="file" id="arquivoIA" accept="image/*" class="sr-only">
+      <div class="ia-area" style="margin-top:1rem">
         <div>
           <img id="imgIA" src="img/exemplo.svg" alt="Nenhuma imagem carregada ainda">
-          <p>
-            <label for="arquivoIA" class="botao primario" style="margin-top:.75rem">📁 Escolher imagem</label>
-            <input type="file" id="arquivoIA" accept="image/*" class="sr-only">
-            <button id="btnDescrever" style="margin-top:.75rem">✨ Descrever</button>
-          </p>
+          <p><button id="btnDescrever" style="margin-top:.75rem">🔁 Descrever de novo</button></p>
+          <p class="nota-tecnica">Tecnologia: rede neural MobileNet (TensorFlow.js) rodando no navegador.</p>
         </div>
         <div>
           <div class="saida-ia" id="saidaIA" role="status" aria-live="polite">O modelo de IA será carregado quando você pedir a primeira descrição.</div>
@@ -93,6 +92,9 @@
       </div>
     </section>
   </main>
+
+  <!-- Legenda visual da fala: mostra na tela o que está sendo lido (pedido do teste com usuário surdo) -->
+  <div id="legendaFala" class="legenda-fala" aria-hidden="true" hidden></div>
 
   <footer>
     <div class="container">
