@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resultados da pesquisa – AcessaIA</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a href="#conteudo" class="pular">Pular para o conteúdo</a>
+  <nav class="barra" aria-label="Ferramentas de acessibilidade">
+    <a class="botao" href="index.html">← Início</a>
+    <span class="sep" aria-hidden="true"></span>
+    <div class="grupo" role="group" aria-label="Tema de cores">
+      <button data-tema-btn="padrao" aria-pressed="true">Padrão</button>
+      <button data-tema-btn="contraste" aria-pressed="false">Alto contraste</button>
+      <button data-tema-btn="amarelo" aria-pressed="false">Amarelo</button>
+    </div>
+    <span class="sep" aria-hidden="true"></span>
+    <div class="grupo" role="group" aria-label="Tamanho do texto">
+      <button id="fonteMenos" aria-label="Diminuir texto">A−</button>
+      <button id="fonteMais" aria-label="Aumentar texto">A+</button>
+      <button id="leituraFacil" aria-pressed="false">Leitura fácil</button>
+    </div>
+    <span class="sep" aria-hidden="true"></span>
+    <button id="btnResumo">🔊 Ouvir resumo</button>
+    <button id="btnParar">⏹ Parar</button>
+  </nav>
+
+  <header class="topo">
+    <div class="container">
+      <h1>📊 Resultados da pesquisa de campo</h1>
+      <p id="metaPesquisa">Carregando dados…</p>
+    </div>
+  </header>
+
+  <main id="conteudo" class="container" tabindex="-1">
+    <section aria-label="Indicadores">
+      <div id="avisoExemplo"></div>
+      <div class="kpis" id="kpis"></div>
+    </section>
+
+    <section aria-labelledby="tGraficos">
+      <h2 id="tGraficos">Gráficos</h2>
+      <p>Os gráficos são desenhados em <code>&lt;canvas&gt;</code> e redesenhados com as cores do tema escolhido. Cada gráfico tem uma tabela equivalente para leitores de tela.</p>
+      <div class="graficos" id="graficos"></div>
+    </section>
+
+    <section aria-labelledby="tRelatos" class="relatos">
+      <h2 id="tRelatos">Relatos dos participantes</h2>
+      <div id="relatos"></div>
+    </section>
+  </main>
+
+  <footer><div class="container">Dados anônimos coletados com Termo de Consentimento Livre e Esclarecido (TCLE). Fonte: <code>data/pesquisa.json</code></div></footer>
+
+  <script src="js/acessibilidade.js" defer></script>
+  <script src="js/dashboard.js" defer></script>
+</body>
+</html>

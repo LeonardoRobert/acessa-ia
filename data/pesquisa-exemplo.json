@@ -1,0 +1,317 @@
+{
+  "meta": {
+    "titulo": "DADOS FICTÍCIOS – somente para testar o dashboard",
+    "periodo": "-",
+    "fonte": "Gerado aleatoriamente. NÃO usar no relatório.",
+    "exemplo": true
+  },
+  "respostas": [
+    {
+      "id": 1,
+      "faixaEtaria": "45–59",
+      "deficiencia": "Auditiva",
+      "dispositivo": "Tablet",
+      "tecnologiaAssistiva": [
+        "Leitor de tela"
+      ],
+      "frequenciaBarreiras": 2,
+      "barreiras": [
+        "Imagens sem descrição",
+        "Vídeos sem legenda",
+        "App não funciona com leitor de tela"
+      ],
+      "servicosDificeis": [
+        "Saúde"
+      ],
+      "recursosDesejados": [
+        "Comando de voz",
+        "Leitura do texto em voz alta",
+        "Legendas automáticas"
+      ],
+      "satisfacao": 4,
+      "relato": ""
+    },
+    {
+      "id": 2,
+      "faixaEtaria": "18–29",
+      "deficiencia": "Múltipla",
+      "dispositivo": "Celular",
+      "tecnologiaAssistiva": [
+        "Nenhuma"
+      ],
+      "frequenciaBarreiras": 2,
+      "barreiras": [
+        "Textos difíceis de entender",
+        "Imagens sem descrição",
+        "Baixo contraste de cores",
+        "Não dá para navegar por voz ou teclado"
+      ],
+      "servicosDificeis": [
+        "Governo (gov.br, INSS)",
+        "Compras",
+        "Saúde"
+      ],
+      "recursosDesejados": [
+        "Vibração ou feedback tátil",
+        "Comando de voz"
+      ],
+      "satisfacao": 3,
+      "relato": ""
+    },
+    {
+      "id": 3,
+      "faixaEtaria": "30–44",
+      "deficiencia": "Visual",
+      "dispositivo": "Celular",
+      "tecnologiaAssistiva": [
+        "Leitor de tela",
+        "Nenhuma"
+      ],
+      "frequenciaBarreiras": 2,
+      "barreiras": [
+        "Vídeos sem legenda",
+        "Não dá para navegar por voz ou teclado",
+        "CAPTCHA e formulários",
+        "Botões pequenos ou difíceis de tocar"
+      ],
+      "servicosDificeis": [
+        "Compras",
+        "Saúde"
+      ],
+      "recursosDesejados": [
+        "Descrição automática de imagens",
+        "Legendas automáticas",
+        "Leitura do texto em voz alta"
+      ],
+      "satisfacao": 2,
+      "relato": ""
+    },
+    {
+      "id": 4,
+      "faixaEtaria": "30–44",
+      "deficiencia": "Visual",
+      "dispositivo": "Computador",
+      "tecnologiaAssistiva": [
+        "Comando de voz",
+        "Legendas ou Libras"
+      ],
+      "frequenciaBarreiras": 4,
+      "barreiras": [
+        "Baixo contraste de cores",
+        "App não funciona com leitor de tela",
+        "Botões pequenos ou difíceis de tocar",
+        "Vídeos sem legenda"
+      ],
+      "servicosDificeis": [
+        "Compras"
+      ],
+      "recursosDesejados": [
+        "Simplificação de textos",
+        "Legendas automáticas"
+      ],
+      "satisfacao": 1,
+      "relato": ""
+    },
+    {
+      "id": 5,
+      "faixaEtaria": "18–29",
+      "deficiencia": "Múltipla",
+      "dispositivo": "Computador",
+      "tecnologiaAssistiva": [
+        "Comando de voz",
+        "Legendas ou Libras"
+      ],
+      "frequenciaBarreiras": 5,
+      "barreiras": [
+        "Baixo contraste de cores",
+        "Botões pequenos ou difíceis de tocar"
+      ],
+      "servicosDificeis": [
+        "Redes sociais",
+        "Banco"
+      ],
+      "recursosDesejados": [
+        "Legendas automáticas",
+        "Descrição automática de imagens"
+      ],
+      "satisfacao": 4,
+      "relato": ""
+    },
+    {
+      "id": 6,
+      "faixaEtaria": "45–59",
+      "deficiencia": "Cognitiva ou intelectual",
+      "dispositivo": "Computador",
+      "tecnologiaAssistiva": [
+        "Legendas ou Libras"
+      ],
+      "frequenciaBarreiras": 4,
+      "barreiras": [
+        "Baixo contraste de cores",
+        "Não dá para navegar por voz ou teclado"
+      ],
+      "servicosDificeis": [
+        "Governo (gov.br, INSS)"
+      ],
+      "recursosDesejados": [
+        "Leitura do texto em voz alta",
+        "Legendas automáticas",
+        "Simplificação de textos"
+      ],
+      "satisfacao": 4,
+      "relato": ""
+    },
+    {
+      "id": 7,
+      "faixaEtaria": "60+",
+      "deficiencia": "Visual",
+      "dispositivo": "Celular",
+      "tecnologiaAssistiva": [
+        "Legendas ou Libras",
+        "Comando de voz"
+      ],
+      "frequenciaBarreiras": 3,
+      "barreiras": [
+        "App não funciona com leitor de tela",
+        "Botões pequenos ou difíceis de tocar",
+        "CAPTCHA e formulários"
+      ],
+      "servicosDificeis": [
+        "Compras",
+        "Saúde"
+      ],
+      "recursosDesejados": [
+        "Leitura do texto em voz alta",
+        "Comando de voz"
+      ],
+      "satisfacao": 2,
+      "relato": ""
+    },
+    {
+      "id": 8,
+      "faixaEtaria": "30–44",
+      "deficiencia": "Auditiva",
+      "dispositivo": "Celular",
+      "tecnologiaAssistiva": [
+        "Legendas ou Libras"
+      ],
+      "frequenciaBarreiras": 3,
+      "barreiras": [
+        "Botões pequenos ou difíceis de tocar",
+        "Imagens sem descrição",
+        "Baixo contraste de cores"
+      ],
+      "servicosDificeis": [
+        "Educação",
+        "Compras"
+      ],
+      "recursosDesejados": [
+        "Leitura do texto em voz alta",
+        "Vibração ou feedback tátil",
+        "Comando de voz"
+      ],
+      "satisfacao": 4,
+      "relato": ""
+    },
+    {
+      "id": 9,
+      "faixaEtaria": "60+",
+      "deficiencia": "Cognitiva ou intelectual",
+      "dispositivo": "Tablet",
+      "tecnologiaAssistiva": [
+        "Leitor de tela",
+        "Legendas ou Libras"
+      ],
+      "frequenciaBarreiras": 5,
+      "barreiras": [
+        "Vídeos sem legenda",
+        "Baixo contraste de cores"
+      ],
+      "servicosDificeis": [
+        "Saúde"
+      ],
+      "recursosDesejados": [
+        "Comando de voz",
+        "Descrição automática de imagens"
+      ],
+      "satisfacao": 1,
+      "relato": ""
+    },
+    {
+      "id": 10,
+      "faixaEtaria": "18–29",
+      "deficiencia": "Visual",
+      "dispositivo": "Celular",
+      "tecnologiaAssistiva": [
+        "Comando de voz"
+      ],
+      "frequenciaBarreiras": 2,
+      "barreiras": [
+        "Vídeos sem legenda",
+        "Textos difíceis de entender"
+      ],
+      "servicosDificeis": [
+        "Redes sociais"
+      ],
+      "recursosDesejados": [
+        "Descrição automática de imagens",
+        "Vibração ou feedback tátil",
+        "Legendas automáticas"
+      ],
+      "satisfacao": 4,
+      "relato": ""
+    },
+    {
+      "id": 11,
+      "faixaEtaria": "18–29",
+      "deficiencia": "Visual",
+      "dispositivo": "Tablet",
+      "tecnologiaAssistiva": [
+        "Legendas ou Libras",
+        "Nenhuma"
+      ],
+      "frequenciaBarreiras": 4,
+      "barreiras": [
+        "Letras pequenas",
+        "Baixo contraste de cores"
+      ],
+      "servicosDificeis": [
+        "Compras",
+        "Redes sociais",
+        "Saúde"
+      ],
+      "recursosDesejados": [
+        "Vibração ou feedback tátil",
+        "Comando de voz"
+      ],
+      "satisfacao": 2,
+      "relato": ""
+    },
+    {
+      "id": 12,
+      "faixaEtaria": "45–59",
+      "deficiencia": "Auditiva",
+      "dispositivo": "Celular",
+      "tecnologiaAssistiva": [
+        "Leitor de tela",
+        "Comando de voz"
+      ],
+      "frequenciaBarreiras": 4,
+      "barreiras": [
+        "CAPTCHA e formulários",
+        "Vídeos sem legenda"
+      ],
+      "servicosDificeis": [
+        "Educação",
+        "Redes sociais",
+        "Compras"
+      ],
+      "recursosDesejados": [
+        "Vibração ou feedback tátil",
+        "Leitura do texto em voz alta"
+      ],
+      "satisfacao": 2,
+      "relato": ""
+    }
+  ]
+}
